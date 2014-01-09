@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotifyMaidan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="tower">Барикада</string>
+    <string name="castle">Тумбочка</string>
+    <string name="logout">logout</string>
+
+</resources>

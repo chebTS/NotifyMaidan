@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TowerActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tower" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <Button
+           	android:layout_margin="5dp"
+            android:id="@+id/btn_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/alert_btn_selector"
+            android:text="Alert!!"
+            android:textSize="45sp" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/f_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="3" />
+    </LinearLayout>
+
+</RelativeLayout>
